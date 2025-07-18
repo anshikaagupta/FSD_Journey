@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="./demo3.html " autocomplete="off">
+    <table border="1px" width="400px" bgcolor="#ddd">
+        <thead>
+            <tr>
+                <td colspan="2" align="center">
+                    FORM DEMO
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USER NAME</td>
+                <td> <input type="text" name="use" placeholder="Enter Your Name" /></td>
+            </tr>
+            <tr>
+                <td>PASSWORD</td>
+                <td> <input type="password" name="pwd" placeholder="Enter password" /></td>
+            </tr>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td> <input type="email" name="ema" placeholder="eg@gmail.com"/></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td> <input type="date" name="dob" min="2024-10-01" max="2025-01-01"/></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td> <input type="radio" name="gen"/>Male <input type="radio" name="gen" />Female</td>
+                 
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td> <input type="checkbox" name="once"/>Swimming<input type="checkbox" name="once" />Dancing<input type="checkbox" name="once"/>Reading</td>
+                 
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td> 
+                    <select>
+                    <option disabled selected>~~Select~~</option>
+                    <option >Betch</option>
+                    <option>Metch</option>
+                    <option>MBA</option>
+                    <option>BBA</option>
+                    <option >BCA</option>
+                    </select>
+                </td>
+                <tr>
+                <td>Home Town</td>
+                <td> 
+                <select>
+                    <optgroup label="UP">
+                        <option>Kanpur</option>
+                        <option>Lucknow</option>
+                        <option>Agra</option>
+                    </optgroup>
+                    <optgroup label="Rajsthan">
+                        <option>Kota</option>
+                        <option>Jaipur</option>
+                        <option>HawaMahal</option>
+                    </optgroup>
+                    <optgroup label="MP">
+                        <option>Indore</option>
+                        <option>Bhopal</option>
+                        <option>HawaMahal</option>
+                    </optgroup>
+                </select>
+                </td>
+                <tr>
+                    <td>
+                        University Name
+                    </td>
+                    <td>
+                        <input type="text" list="mylist" />
+                        <datalist id="mylist">
+                            <option>AKTU</option>
+                            <option>CSJMU</option>
+                            <option>GBTU</option>
+                            <option>HBTU</option>
+                            <option>IIT</option>
+                            <option>LPU</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="tel" /></td>
+                </tr>
+                 <tr>
+                    <td>SGPA</td>
+                    <td><input type="number" min="1" max="10" step="0.01" /></td>
+                </tr>
+                <!--<tr>
+                    <td>Color</td>
+                    <td><input type="color" /></td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td><input type="range" /></td>
+                </tr>-->
+                <tr>
+                    <td>Hidden Control</td>
+                    <td><input type="hidden" value="ANSHIKA" /></td>
+                </tr>
+                <!--<tr>
+                    <td>Find Something</td>
+                    <td><input type="search" /></td>
+                </tr>
+                <tr>
+                    <td>Upload Image</td>
+                    <td><input type="file" accept=".jpg, .pdf" multiple /></td>
+                </tr>
+                <tr>
+                    <td>Upload Image</td>
+                    <td><input type="datetime-local" /></td>
+                </tr>
+                <tr>
+                    <td>Month</td>
+                    <td><input type="month" /></td>
+                </tr>
+                <tr>
+                    <td>week</td>
+                    <td><input type="week" /></td>
+                </tr>-->
+                 <tr>
+                    <td colspan="2"><input type="submit" />
+                    <input type="reset" />
+                    <!--<input type="button" value="button" />
+
+                    <button type="submit">
+                        &#128512;
+                    </button>-->
+                    </td>
+                </td>
+                </tr>
+                 
+            </tr>
+                 
+            </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        .container{
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            gap: 5px;
+    }
+        .container>*{
+            border: 1px solid;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1 1 100%;
+        }
+        .container>header{
+            line-height: 100px;
+            color: brown;
+            background-color: aqua;
+    }
+        .container>nav{
+            line-height: 100px;
+            color: brown;
+            background-color:antiquewhite;
+    }
+    @media screen and (min-width:1200px) {
+        
+        .mainContent{
+            order: 2;
+            height: 500px;
+            flex: 3 3 0%;
+    }
+        .aside1{
+            order: 1;
+            flex: 1 2 0%;
+        }
+        .aside2{
+            order: 3;
+            flex: 1 2 0%;
+
+        }
+        .container>footer{
+            order: 4;
+        }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    
+    .aside1{
+        flex: 1 1 0%;
+    }
+    .aside2{
+        flex: 1 1 0%;
+    }
+    
+}
+    </style>
+ </head>   
+<body >
+
+    <div class="container">
+    <header>MY HEADER</header>
+    <nav>MY NAV</nav>
+    <article class="mainContent"> Interview Tip
+In a typical interview you’ll be asked “why are you interested in this role?” or “why are you interested in working at our company?”. Use this interview tip to explain why you want the job.
+
+
+</article>
+<aside class="aside1">
+    Aside1
+</aside>
+<aside class="aside2">
+    Aside2
+</aside>
+<footer>MYFOOTER</footer>
+   </div>  
+</body>
+</html>
